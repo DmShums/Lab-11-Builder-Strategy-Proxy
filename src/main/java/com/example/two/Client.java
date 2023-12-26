@@ -4,12 +4,6 @@ import lombok.Data;
 import lombok.Getter;
 import lombok.ToString;
 
-
-enum Gender {
-    MALE, FEMALE
-}
-
-
 @Data
 @Builder @ToString @Getter
 public class Client {

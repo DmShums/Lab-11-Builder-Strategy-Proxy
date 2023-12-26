@@ -3,9 +3,7 @@ import lombok.Builder;
 import lombok.Data;
 
 
-enum Gender {
-    MALE, FEMALE
-}
+
 
 @Data
 @Builder
