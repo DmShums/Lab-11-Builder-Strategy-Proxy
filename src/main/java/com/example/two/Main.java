@@ -2,11 +2,11 @@ package com.example.two;
 
 public class Main {
     public static void main(String[] args) {
-        Client client1 = new Client("Victor", 19, "Male");
-        Client client2 = new Client("Yura", 19, "Male");
+        Client clientOne = new Client("Victor", 19, "Male");
+        Client clientTwo = new Client("Yura", 19, "Male");
 
-        MailInfo birthdayMailInfo = new MailInfo(client1, "Birthday");
-        MailInfo giftMailInfo = new MailInfo(client2, "Gift");
+        MailInfo birthdayMailInfo = new MailInfo(clientOne, "Birthday");
+        MailInfo giftMailInfo = new MailInfo(clientTwo, "Gift");
 
         MailBox mailBox = new MailBox();
         mailBox.addMailInfo(birthdayMailInfo);
